@@ -3,5 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    color: black;
+    background-color: white;
 }

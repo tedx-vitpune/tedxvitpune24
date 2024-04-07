@@ -4,7 +4,7 @@ import React from "react";
 const AboutEvent = () => {
   return (
     <div className="about-event">
-      <h1>Hero</h1>
+      <h1>About Event</h1>
     </div>
   );
 };
