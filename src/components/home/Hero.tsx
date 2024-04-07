@@ -39,7 +39,7 @@ const handleDrawCanvas = (
 const Hero = () => {
 	const keyframes = useMemo(
 		() =>
-			[...new Array(165)].map((_, i) =>
+			[...new Array(140)].map((_, i) =>
 				createImage(`/hero/${i.toString().padStart(4, "0")}.png`)
 			),
 		[]
@@ -69,9 +69,7 @@ const Hero = () => {
 					<motion.h1
 						style={{ opacity, scale }}
 						className='heading text-center text-4xl font-semibold text-white md:text-7xl'
-					>
-						<Image src='/tsb.png' alt='Logo' width={400} height={100} />
-					</motion.h1>
+					></motion.h1>
 				</div>
 			</div>
 		</section>

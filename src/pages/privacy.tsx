@@ -1,6 +1,6 @@
 export default function Privacy() {
 	return (
-		<main className='bg-white py-16'>
+		<main className='bg-black pt-40 pb-16'>
 			<div className='max-w-4xl mx-auto px-6 py-12 text-justify'>
 				<h1 className='heading text-5xl md:text-6xl'>Privacy Policy</h1>
 				<p className='font-bold text-xl my-8'>Dated - 18th March 2023</p>
