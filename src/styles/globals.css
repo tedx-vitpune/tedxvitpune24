@@ -9,14 +9,14 @@
 }
 
 @font-face {
-	font-family: "Aileron";
-	src: url(/fonts/aileron/Aileron-Bold.otf);
-	src: url(/fonts/aileron/Aileron-BoldItalic.otf);
-	src: url(/fonts/aileron/Aileron-Italic.otf);
-	src: url(/fonts/aileron/Aileron-SemiBold.otf);
-	src: url(/fonts/aileron/Aileron-SemiBoldItalic.otf);
-	src: url(/fonts/aileron/Aileron-Regular.otf);
-	font-display: swap;
+		font-family: "Aileron";
+		src: url(/fonts/aileron/Aileron-Bold.otf);
+		src: url(/fonts/aileron/Aileron-BoldItalic.otf);
+		src: url(/fonts/aileron/Aileron-Italic.otf);
+		src: url(/fonts/aileron/Aileron-SemiBold.otf);
+		src: url(/fonts/aileron/Aileron-SemiBoldItalic.otf);
+		src: url(/fonts/aileron/Aileron-Regular.otf);
+		font-display: swap;
 }
 
 @font-face {

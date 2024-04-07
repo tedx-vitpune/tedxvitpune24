@@ -3,6 +3,7 @@ import { motion, useTransform } from "framer-motion";
 import { useMemo, useRef } from "react";
 
 import useScrollImageSequenceFramerCanvas from "@/hooks/useScrollImageSequenceFramerCanvas";
+import Image from "next/image";
 
 const createImage = (src: string) => {
 	if (typeof window === "undefined") return null;
@@ -38,12 +39,8 @@ const handleDrawCanvas = (
 const Hero = () => {
 	const keyframes = useMemo(
 		() =>
-			[...new Array(145)].map((_, i) =>
-				createImage(
-					`https://www.apple.com/105/media/us/airpods-3rd-generation/2021/3c0b27aa-a5fe-4365-a9ae-83c28d10fa21/anim/spatial-audio/large/${i
-						.toString()
-						.padStart(4, "0")}.jpg`
-				)
+			[...new Array(165)].map((_, i) =>
+				createImage(`/hero/${i.toString().padStart(4, "0")}.png`)
 			),
 		[]
 	);
@@ -61,8 +58,8 @@ const Hero = () => {
 	});
 
 	// We know that the entire animation spans across 4 screen height.
-	const opacity = useTransform(progress, [0.25, 0.5, 0.75, 1], [0, 1, 1, 0]);
-	const scale = useTransform(progress, [0.25, 0.5, 1], [0.95, 1.4, 2]);
+	const opacity = useTransform(progress, [0.25, 0.5, 1], [0, 1, 1]);
+	const scale = useTransform(progress, [0.25, 1], [0.95, 1.4]);
 
 	return (
 		<section ref={containerRef} className='h-[400vh]'>
@@ -73,9 +70,7 @@ const Hero = () => {
 						style={{ opacity, scale }}
 						className='heading text-center text-4xl font-semibold text-white md:text-7xl'
 					>
-						THE SPACE
-						<br />
-						BETWEEN
+						<Image src='/tsb.png' alt='Logo' width={400} height={100} />
 					</motion.h1>
 				</div>
 			</div>
