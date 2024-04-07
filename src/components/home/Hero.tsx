@@ -39,7 +39,7 @@ const handleDrawCanvas = (
 const Hero = () => {
 	const keyframes = useMemo(
 		() =>
-			[...new Array(140)].map((_, i) =>
+			[...new Array(217)].map((_, i) =>
 				createImage(`/hero/${i.toString().padStart(4, "0")}.png`)
 			),
 		[]
