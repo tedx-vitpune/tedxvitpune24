@@ -13,7 +13,6 @@ export default function Navbar() {
           "fixed top-4 z-50 bg-black/50 w-11/12 lg:w-3/4 mx-auto py-4 px-5 lg:px-10 backdrop-blur-xl flex flex-col",
           isOpen && "rounded-3xl lg:rounded-full",
           !isOpen && "rounded-full",
-          "shadow-custom"
         )}
       >
         <div className="flex justify-between">
