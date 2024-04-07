@@ -3,31 +3,81 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+}
+
+@font-face {
+	font-family: "Aileron";
+	src: url(/fonts/aileron/Aileron-Bold.otf);
+	src: url(/fonts/aileron/Aileron-BoldItalic.otf);
+	src: url(/fonts/aileron/Aileron-Italic.otf);
+	src: url(/fonts/aileron/Aileron-SemiBold.otf);
+	src: url(/fonts/aileron/Aileron-SemiBoldItalic.otf);
+	src: url(/fonts/aileron/Aileron-Regular.otf);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "BasementGrotesque";
+	src: url(/fonts/BasementGrotesque/BasementGrotesque-Black_v1.202.otf);
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Aileron", sans-serif;
+}
+
+.heading {
+	font-family: "BasementGrotesque", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+	:root {
+		--foreground-rgb: 255, 255, 255;
+		--background-start-rgb: 0, 0, 0;
+		--background-end-rgb: 0, 0, 0;
+	}
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	color: rgb(var(--foreground-rgb));
+	background: linear-gradient(
+			to bottom,
+			transparent,
+			rgb(var(--background-end-rgb))
+		)
+		rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #313131;
+	border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #3f3f3f;
 }
