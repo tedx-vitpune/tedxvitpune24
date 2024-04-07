@@ -1,4 +1,3 @@
-import { set } from "firebase/database";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -17,7 +16,9 @@ export default function Navbar() {
 				)}
 			>
 				<div className='flex justify-between'>
-					<Image src={"logo.svg"} alt='Logo' width={208} height={100} />
+					<Link href='/'>
+						<Image src={"logo.svg"} alt='Logo' width={208} height={100} />
+					</Link>
 					<div className='hidden lg:flex gap-6 justify-center items-center mr-2'>
 						<Link
 							href='/about'
