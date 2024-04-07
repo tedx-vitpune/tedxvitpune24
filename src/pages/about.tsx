@@ -14,7 +14,7 @@ const About = () => {
         believing passionately in the power of ideas to change attitudes
         and lives and welcoming people from every discipline and culture
         who seek a deeper understanding of the world. Today, the two
-        annual TED Conferences invite the world's leading thinkers and
+        annual TED Conferences invite the world`s leading thinkers and
         doers to speak for 18 minutes or less, and the total number of
         events conducted till now is more than 6000. All this has led to a
         global community focused on change through the power of ideas,
@@ -48,8 +48,8 @@ const About = () => {
       <h2 className="ted1">What is <span>Tedx</span>VITPune?</h2>
       <p className="ted1para">
         TEDxVITPune was among the first TEDx events in Pune and has grown
-        to be a premier platform for furthering TED's mission of 'Ideas
-        Worth Spreading' within its local community. Over the past nine
+        to be a premier platform for furthering TEDs mission of Ideas
+        Worth Spreading within its local community. Over the past nine
         events, TEDxVITPune has brought together visionaries, thinkers,
         and doers of different disciplines from around the country to
         create a one-day event filled with ideas and discussions that
