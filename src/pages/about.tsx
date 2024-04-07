@@ -16,11 +16,7 @@ const About = () => {
         who seek a deeper understanding of the world. Today, the two
         annual TED Conferences invite the world`s leading thinkers and
         doers to speak for 18 minutes or less, and the total number of
-        events conducted till now is more than 6000. All this has led to a
-        global community focused on change through the power of ideas,
-        thus forming a trinity of ideas from- Technology, Entertainment,
-        and Design, and has recently taken up a broader scope ranging from
-        science and business to global issues.
+        events conducted till now is more than 6000.
       </p>
     </div>
   </li>
@@ -36,10 +32,7 @@ const About = () => {
         expertise that spark conversations in their communities and
         ultimately elevate them to a global stage. TEDx events aim to
         integrate ideas from every nook and corner of the world, thus,
-        extending the boundaries of views and ideas. Our event is named
-        TEDxVITPune, where x = independently organized TED event. The TED
-        Conference provides general guidance for the TEDx program, but
-        individual TEDx events, including ours, are self-organized.
+        extending the boundaries of views and ideas. 
       </p>
     </div>
   </li>
@@ -57,9 +50,7 @@ const About = () => {
         Amira Gill, Avinash Ramanathan, Mahesh Kale, Debanshu Roy, Jishnu
         Chatterjee, Mark Hannant, Ajit Kembhavi, Avinash Dharmadhikari,
         Niranjan Pedanekar, Chintan Ruparel, Kunal Jagwani, and Swanandi
-        Tikekar. Cumulatively, the event has garnered an extensive
-        following around the country and has been recognized as an
-        exemplary TEDx event in India.
+        Tikekar.
       </p>
     </div>
   </li>
