@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Swiper as SwiperComponent, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import "swiper/css";
 import Image from "next/image";
@@ -43,7 +43,7 @@ const SwiperSliderComponenet = () => {
 			</div>
 
 			<div className='cursorReplace'>
-				<Swiper
+				<SwiperComponent
 					// spaceBetween={50}
 					slidesPerView={slides}
 					grabCursor={true}
@@ -55,20 +55,11 @@ const SwiperSliderComponenet = () => {
 					loop={true}
 					modules={[Autoplay]}
 				>
-					<SwiperSlide className='flex justify-start flex-col w-fit p-5 md:p-4 select-none'>
-						<div className='h-[100%] w-full flex items-end'>
-							<div className='w-[100%] h-full md:h-[70vh] flex items-center justify-center flex-col lg:flex-row gap-5'>
-								<div className='speaker-img rounded-[3rem] relative w-full md:w-1/3 h-[50vh] md:h-[70vh]'>
-									<div className='md:hidden absolute z-10 bottom-5 flex flex-col w-full items-center gap-3'>
-										<h3 className='text-2xl text-center font-bold leading-none heading text-white'>
-											Coming Soon
-										</h3>
-										<p className='tracking-wider text-sm heading capitalize text-white'>
-											Dancer . Artiste . Polymath
-										</p>
-									</div>
-								</div>
-							</div>
+					<SwiperSlide className='flex justify-start flex-col p-5 md:p-4 select-none'>
+						<div className='h-[100%] w-full flex items-center justify-center'>
+							<h3 className='text-2xl text-center font-bold leading-none heading text-white'>
+								Coming Soon
+							</h3>
 						</div>
 					</SwiperSlide>
 					{/* <SwiperSlide className='flex justify-start flex-col w-fit p-5 md:p-4 select-none'>
@@ -421,7 +412,7 @@ const SwiperSliderComponenet = () => {
 							</div>
 						</div>
 					</SwiperSlide> */}
-				</Swiper>
+				</SwiperComponent>
 
 				{/* <div className='border border-white w-1/2 mx-auto px-4 py-3 block md:hidden rounded-full'>
 					<p className='text-white text-base font-normal flex items-center justify-center gap-2 heading tracking-wider '>

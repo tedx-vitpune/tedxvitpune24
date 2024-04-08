@@ -12,7 +12,7 @@ export default function Home() {
 			<div className='overflow-clip'>
 				<Hero />
 				<AboutEvent />
-				<Speaker />
+				{/* <Speaker /> */}
 				<TimeLine />
 				<Cards />
 			</div>

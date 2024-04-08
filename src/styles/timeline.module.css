@@ -1,24 +1,20 @@
 .pane.active {
 	flex-grow: 10;
 	max-width: 100%;
-	
-	.background {
-		transform: scale(1.25, 1.25);
+}
+.pane.active .background {
+	transform: scale(1.25, 1.25);
+}
+@media (min-width: 640px) {
+	.pane.active .label {
+		transform: translateX(0.5rem);
 	}
-
-	.label {
-		@media (min-width: 640px) {
-			transform: translateX(0.5rem);
-		}
-
-		.content > * {
-			opacity: 1;
-			transform: translateX(0);
-		}
-	}
-
-	.shadow {
-		opacity: 0.75;
-		transform: translateY(0);
-	}
+}
+.pane.active .label .content > * {
+	opacity: 1;
+	transform: translateX(0);
+}
+.pane.active .shadow {
+	opacity: 0.75;
+	transform: translateY(0);
 }

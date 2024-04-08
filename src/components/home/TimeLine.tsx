@@ -92,7 +92,7 @@ export default function TimeLine() {
 
 	return (
 		<>
-			<section className='max-w-6xl mx-auto mt-32 px-6 lg:px-0'>
+			<section className='lg:w-4/5 mx-auto mt-32 px-6 lg:px-0'>
 				<h2 className='heading text-center text-3xl md:text-5xl text-white py-5 lg:py-[3.75rem] mx-12 lg:mx-[8rem] '>
 					Our Journey
 				</h2>
@@ -105,7 +105,7 @@ export default function TimeLine() {
 							<div
 								className={cn(
 									styles.background,
-									"absolute  bg-center bg-cover bg-red-500  bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-14 sm:px-32 pt-16 md:pt-32 lg:pt-20"
+									"absolute  bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10 px-14 sm:px-32 pt-16 md:pt-32 lg:pt-20"
 								)}
 								style={{
 									backgroundImage: "url(/timeline/1.png)",
