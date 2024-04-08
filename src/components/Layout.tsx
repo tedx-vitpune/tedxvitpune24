@@ -88,7 +88,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 			) : (
 				<div>
 					<Navbar />
-					<main>{children}</main>
+					<main className='bg-mainbg'>{children}</main>
 					<Footer />
 				</div>
 			)}
