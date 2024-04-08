@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutEvent = () => {
 	return (
-		<div className='h-auto bg-white absolute top-[290vh] w-full rounded-t-[40px] px-36 py-32 flex flex-col gap-8'>
+		<div className='h-auto bg-white absolute top-[300vh] w-full rounded-t-[40px] px-36 py-24 flex flex-col gap-8'>
 			<div className='flex flex-col justify-center'>
 				<h1 className='text-black text-2xl font-msbold tracking-widest text-center'>
 					THE SPACE BETWEEN
