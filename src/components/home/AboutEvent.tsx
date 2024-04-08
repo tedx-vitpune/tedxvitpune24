@@ -3,16 +3,16 @@ import React from "react";
 
 const AboutEvent = () => {
 	return (
-		<div className='h-auto bg-white absolute top-[300vh] w-full rounded-t-[40px] px-36 py-24 flex flex-col gap-8'>
+		<div className='h-screen bg-white absolute top-[300vh] w-full rounded-t-[40px] px-4 py-16 lg:px-36 lg:py-24 flex flex-col gap-8'>
 			<div className='flex flex-col justify-center'>
-				<h1 className='text-black text-2xl font-msbold tracking-widest text-center'>
+				<h1 className='text-black text-lg lg:text-2xl font-msbold tracking-widest text-center'>
 					THE SPACE BETWEEN
 				</h1>
-				<h3 className='heading text-black text-7xl md:text-7xl lg:text-9xl mt-20 font-mblack text-center'>
+				<h3 className='heading text-black text-5xl lg:text-9xl mt-6 lg:mt-20 font-mblack text-center'>
 					27 APRIL 2024
 				</h3>
 			</div>
-			<p className='py-4 text-xl text-black text-center'>
+			<p className='py-4 text-lg lg:text-xl text-black text-center'>
 				We fearlessly embark on a journey of discovery, navigating through the
 				unfamiliar paths of a complex problem. Our thirst for knowledge leads us
 				to constantly seek fresh insights and perspectives that will steer us
