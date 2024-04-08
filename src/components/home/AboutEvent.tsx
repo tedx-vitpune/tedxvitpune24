@@ -23,16 +23,16 @@ const AboutEvent = () => {
 				us to a place of genuine tranquility and inner peace, even amid chaos
 				and uncertainty.
 			</p>
-			<Image
+			{/* <Image
 				src={"/hand.png"}
 				className='absolute bottom-0 right-0 z-20'
 				alt='hand'
 				width={430}
 				height={430}
-			/>
+			/> */}
 			<div className='flex justify-center items-center z-50'>
 				<button className='px-24 py-4 bg-black text-white z-50 text-2xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:bg-cliptext transition-all font-mbold tracking-wide'>
-					Buy Now
+					Grab Your Tickets
 				</button>
 			</div>
 		</div>
