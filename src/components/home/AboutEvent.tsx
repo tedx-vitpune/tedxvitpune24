@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 
 const AboutEvent = () => {
 	return (
-		<div className='h-screen bg-about absolute top-[300vh] w-full rounded-t-[40px] px-4 py-16 lg:px-36 lg:py-24 flex flex-col gap-8'>
+		<div className='h-screen bg-about absolute top-[170.4vh] lg:top-[300vh] w-full rounded-t-[40px] px-4 py-16 lg:px-36 lg:py-24 flex flex-col gap-8 transition'>
 			<div className='flex flex-col items-center justify-center'>
 				<Image src={"/Pivtol.png"} alt='pivtol' width={50} height={100} />
 				<h1 className='text-black text-lg lg:text-2xl font-msbold tracking-widest text-center'>
