@@ -62,7 +62,7 @@ const Hero = () => {
 	const scale = useTransform(progress, [0.25, 1], [0.95, 1.4]);
 
 	return (
-		<section ref={containerRef} className='h-[400vh]'>
+		<section ref={containerRef} className='h-[400vh] bg-hero1'>
 			<div className='sticky top-0'>
 				<canvas ref={canvasRef} className='absolute inset-0 block' />
 				<div className='mx-auto flex h-screen max-w-6xl items-center justify-center px-12'>
