@@ -9,19 +9,38 @@
 }
 
 @font-face {
-		font-family: "Aileron";
-		src: url(/fonts/aileron/Aileron-Bold.otf);
-		src: url(/fonts/aileron/Aileron-BoldItalic.otf);
-		src: url(/fonts/aileron/Aileron-Italic.otf);
-		src: url(/fonts/aileron/Aileron-SemiBold.otf);
-		src: url(/fonts/aileron/Aileron-SemiBoldItalic.otf);
-		src: url(/fonts/aileron/Aileron-Regular.otf);
-		font-display: swap;
+	font-family: "Montserrat-Regular";
+	src: url(/fonts/Montserrat/static/Montserrat-Regular.ttf);
+	font-display: swap;
 }
 
 @font-face {
-	font-family: "BasementGrotesque";
-	src: url(/fonts/BasementGrotesque/BasementGrotesque-Black_v1.202.otf);
+	font-family: "Montserrat-Black";
+	src: url(/fonts/Montserrat/static/Montserrat-Black.ttf);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url(/fonts/Montserrat/static/Montserrat-Bold.ttf);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat-ExtraBold";
+	src: url(/fonts/Montserrat/static/Montserrat-ExtraBold.ttf);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat-SemiBold";
+	src: url(/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Butller-Black";
+	src: url(/fonts/Butler/Butler_Black.otf);
 	font-display: swap;
 }
 
@@ -29,11 +48,23 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: "Aileron", sans-serif;
+	font-family: "Montserrat-Regular", sans-serif;
+}
+
+.font-mbold {
+	font-family: "Montserrat-Bold", sans-serif;
+}
+
+.font-msbold {
+	font-family: "Montserrat-SemiBold", sans-serif;
+}
+
+.font-mblack {
+	font-family: "Montserrat-Black", sans-serif;
 }
 
 .heading {
-	font-family: "BasementGrotesque", sans-serif;
+	font-family: "Butller-Black", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
