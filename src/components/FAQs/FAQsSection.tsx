@@ -2,7 +2,7 @@ import QnA from "./QnA";
 
 export default function FAQsSection() {
 	return (
-		<div className='bg-black flex flex-col justify-center items-center px-6 md:px-0 py-16 '>
+		<div className='flex flex-col justify-center items-center px-6 md:px-0 py-16 '>
 			<div className='max-w-4xl mx-auto'>
 				<h2 className='text-4xl font-black text-center mb-8'>
 					About TEDxVITPune

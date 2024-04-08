@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQsHeader = () => {
 	return (
-		<div className='bg-black pt-40 pb-112'>
+		<div className='pt-40 pb-112'>
 			<section className='max-w-6xl mx-auto'>
 				<h1 className='text-4xl sm:text-5xl py-10 text-center font-extrabold tracking-wide heading'>
 					Frequently Asked Questions

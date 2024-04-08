@@ -26,11 +26,11 @@ export default function QnA({
 					accordionContent.style.maxHeight = `${
 						(accordionContent?.scrollHeight ?? 0) + 32
 					}px`;
-					header.parentElement?.classList.add("bg-neutral-900");
+					header.parentElement?.classList.add("bg-sky-950");
 					setIsOpen(true);
 				} else {
 					accordionContent.style.maxHeight = `0px`;
-					header.parentElement?.classList.remove("bg-neutral-900");
+					header.parentElement?.classList.remove("bg-sky-950");
 					setIsOpen(false);
 				}
 			});
@@ -39,7 +39,7 @@ export default function QnA({
 
 	return (
 		<>
-			<div className='transition hover:bg-neutral-900 my-2 py-1'>
+			<div className='transition hover:bg-sky-950 my-2 py-1'>
 				<div
 					id={`${id}-accordion-header`}
 					className='accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16'
