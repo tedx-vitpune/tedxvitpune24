@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import "@/styles/Home/about_event.css";
 import '@/styles/about.css'
 import '@/styles/navbar.css'
 import type { AppProps } from "next/app";
