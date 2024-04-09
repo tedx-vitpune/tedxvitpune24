@@ -4,11 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function TimeLine() {
-	const [activePane, setActivePane] = useState(4);
+	const [activePane, setActivePane] = useState(6);
 
 	const panes = [
 		{
 			year: "2015",
+			color: "bg-[#00c0fa]",
 			title: "Growth",
 			subtitle: "The Pilot | Ed 01",
 			content: `The "Growth" of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in "Spreading Ideas". With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey toseek inspiration from revolutionary ideas.`,
@@ -18,6 +19,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2016",
+			color: "bg-[#51b3f2]",
 			title: "Let's Crossover",
 			subtitle: "Traversing All Hurdles | Ed 02",
 			content: `After "Growth" came the moment to
@@ -33,6 +35,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2017",
+			color: "bg-[#4aa4f0]",
 			title: "Connecting the Dots",
 			subtitle: "Pause & Take a Step Back | Ed 03",
 			content: `The third edition brought together a national award-winning
@@ -47,6 +50,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2018",
+			color: "bg-[#4193eb]",
 			title: "Walking the Wire",
 			subtitle: "Infinite Risks & No What-ifs | Ed 04",
 			content: `The fourth TEDxVITPune edition, held in October 2018, emphasized
@@ -60,6 +64,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2019",
+			color: "bg-[#0184f0]",
 			title: "Unravelling The Parallax",
 			subtitle: "Broadening The Outlook | Ed 05",
 			content: `The 5th Edition of TEDxVITPune delved into uncharted
@@ -75,6 +80,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2021",
+			color: "bg-[#3273e5]",
 			title: "Reemergence",
 			subtitle: "Resurfacing Amidst Turmoil | Ed 06",
 			content: `The 6th edition of TEDxVITPune highlighted the resilience needed
@@ -89,6 +95,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2022",
+			color: "bg-[#2b64e3]",
 			title: "Embracing the Pandemonium",
 			subtitle: "The chaos makes sense | Ed 07",
 			content: `The 7th TEDxVITPune edition celebrated embracing chaos and
@@ -103,6 +110,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2023",
+			color: "bg-[#015eea]",
 			title: "Fragments",
 			subtitle: "Puzzle of our design | Ed 08",
 			content:
@@ -127,7 +135,8 @@ export default function TimeLine() {
 						<div
 							key={index}
 							className={cn(
-								"w-full lg:w-14 min-h-14 lg:h-50vh rounded-cc transition-all duration-700 bg-maybe bg-blue-500 bg-no-repeat bg-scroll bg-center relative overflow-y-hidden px-4 py-2",
+								"w-full lg:w-14 min-h-14 lg:h-50vh rounded-cc transition-all duration-700  relative overflow-y-hidden px-4 py-2",
+								pane.color,
 								index === activePane ? "flex-1 min-h-[55vh]" : "flex-2"
 							)}
 							onClick={(e) => handleClick(index)}
