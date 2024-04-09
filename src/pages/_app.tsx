@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import '@/styles/about.css'
 import '@/styles/navbar.css'
 import '@/styles/lookbook.css'
+import'@/styles/cc.css'
 import type { AppProps } from "next/app";
 import Layout from "@/components/Layout";
 
