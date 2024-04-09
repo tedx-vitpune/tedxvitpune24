@@ -1,5 +1,5 @@
 // import LookBook from '@/components/LookBook/LookBook'
-import Image from "next/image";
+
 import CCBTS from'@/components/CC/CC.js';
 const bannerImage = "/ccbanner.png";
 
@@ -7,7 +7,7 @@ export default function CC() {
   let cc = ["cc", "cc2"];
   return (
     <div className="bg-white w-screen">
-      <Image
+      <img
         src="https://res.cloudinary.com/dq8og12k9/image/upload/v1712652124/CC/4_gmf2yt.png"
         width="10000"
         height="10000"
@@ -23,7 +23,7 @@ export default function CC() {
       </div>
       <div className="text-black my-8 md:my-16 max-w-6xl mx-auto pb-1 px-6 xl:px-0">
         <div className="my-16">
-          <h2 className="text-3xl md:text-4xl">What ?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">What ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             Community Conversations” is a platform to share your ideas, get
             yourself collaborating, and become a part of meaningful
