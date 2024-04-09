@@ -1,19 +1,17 @@
-import { color } from "framer-motion";
 import React from "react";
+
 const About = () => {
 	return (
-		<div className='main'>
-			<div className='card-container'>
-				<ul id='cards'>
-					<li className='card' id='card1'>
-						<div className='about_heading'>
-							<p className='about_heading'>About Us</p>
-						</div>
-						<div className='card-body'>
-							<h2 className='ted1'>
-								What is <span>Ted</span> ?
+		<div>
+			<div className='w-11/12 py-24 lg:w-4/5 mx-auto'>
+				<h1 className='text-5xl heading my-28 text-center'>About Us</h1>
+				<div id='flex flex-col'>
+					<div className='sticky top-40 mt-10 bg-black/50 backdrop-blur-md px-12 py-10 rounded-cc'>
+						<div className='flex flex-col gap-6'>
+							<h2 className='heading text-5xl'>
+								What is <span className='font-mblack text-red-600'>TED</span> ?
 							</h2>
-							<p className='ted1para'>
+							<p className='text-sm lg:text-lg text-justify'>
 								TED is a non-profit organization devoted to Ideas Worth
 								Spreading. It started as a four-day conference in California 39
 								years ago, believing passionately in the power of ideas to
@@ -24,13 +22,13 @@ const About = () => {
 								the total number of events conducted till now is more than 6000.
 							</p>
 						</div>
-					</li>
-					<li className='card' id='card2'>
-						<div className='card-body'>
-							<h2 className='ted1'>
-								What is <span>Tedx</span> ?
+					</div>
+					<div className='sticky top-40 mt-10 bg-black/50 backdrop-blur-md px-12 py-10 rounded-cc'>
+						<div className='flex flex-col gap-6'>
+							<h2 className='heading text-5xl'>
+								What is <span className='font-mblack text-red-600'>TEDx</span> ?
 							</h2>
-							<p className='ted1para'>
+							<p className='text-sm lg:text-lg text-justify'>
 								In the spirit of ideas worth spreading, TEDx is a TED-created
 								program of local, self-organized events that bring people
 								together to share a TED-like experience. These events are
@@ -42,13 +40,14 @@ const About = () => {
 								thus, extending the boundaries of views and ideas.
 							</p>
 						</div>
-					</li>
-					<li className='card' id='card3'>
-						<div className='card-body'>
-							<h2 className='ted1'>
-								What is <span>Tedx</span>VITPune?
+					</div>
+					<div className='sticky top-40 mt-10 bg-black/50 backdrop-blur-md px-12 py-10 rounded-cc'>
+						<div className='flex flex-col gap-6'>
+							<h2 className='heading text-5xl'>
+								What is <span className='font-mblack text-red-600'>TEDx</span>
+								<span className='font-mont'>VITPune</span>?
 							</h2>
-							<p className='ted1para'>
+							<p className='text-sm lg:text-lg text-justify'>
 								TEDxVITPune was among the first TEDx events in Pune and has
 								grown to be a premier platform for furthering TEDs mission of
 								Ideas Worth Spreading within its local community. Over the past
@@ -62,8 +61,8 @@ const About = () => {
 								Kunal Jagwani, and Swanandi Tikekar.
 							</p>
 						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

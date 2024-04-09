@@ -15,6 +15,7 @@ const config: Config = {
 				mainbg: "url('/bg.png')",
 				hero1: "url('/hero/0000.png')",
 				about: "url('/bg-about.png')",
+				maybe: "url('/maybe.png')",
 				cliptext: "url('/clip.gif')",
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
