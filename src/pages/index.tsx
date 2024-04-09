@@ -14,7 +14,7 @@ export default function Home() {
 				<AboutEvent />
 				{/* <Speaker /> */}
 				<TimeLine />
-				<Cards />
+				{/* <Cards /> */}
 			</div>
 		</main>
 	);
