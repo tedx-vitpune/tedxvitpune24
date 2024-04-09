@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function TimeLine() {
-	const [activePane, setActivePane] = useState(4);
+	const [activePane, setActivePane] = useState(6);
 
 	const panes = [
 		{

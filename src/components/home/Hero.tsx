@@ -83,7 +83,7 @@ const Hero = () => {
 			</div>
 			<motion.div
 				style={{ opacity }}
-				className='h-[33.4vh] lg:h-0 bg-about rounded-t-[40px] flex items-center justify-center text-black tracking-widest fixed font-msbold text-2xl w-full'
+				className='h-[33.4vh] lg:hidden bg-about rounded-t-[40px] flex items-center justify-center text-black tracking-widest fixed font-msbold text-2xl w-full'
 			>
 				SCROLL
 			</motion.div>
