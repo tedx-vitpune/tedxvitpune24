@@ -7,7 +7,7 @@ export default function CC() {
   let cc = ["cc", "cc2"];
   return (
     <div className="bg-white w-screen">
-      <img
+      <Image
         src="https://res.cloudinary.com/dq8og12k9/image/upload/v1712652124/CC/4_gmf2yt.png"
         width="10000"
         height="10000"
