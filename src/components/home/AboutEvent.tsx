@@ -14,7 +14,7 @@ const AboutEvent = () => {
 				<h1 className='text-black text-lg lg:text-2xl font-msbold tracking-widest text-center'>
 					THE SPACE BETWEEN
 				</h1>
-				<h3 className='heading bg-cliptext bg-clip-text text-transparent text-6xl md:text-8xl mt-6 lg:mt-16 font-mblack text-center'>
+				<h3 className='heading bg-gradient-to-r from-[#00c0fa] to-[#015eea] bg-clip-text text-transparent text-6xl md:text-8xl mt-6 lg:mt-16 font-mblack text-center'>
 					27 APRIL 2024
 				</h3>
 			</div>
