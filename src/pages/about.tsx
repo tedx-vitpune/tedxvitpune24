@@ -43,7 +43,7 @@ const About = () => {
 					</div>
 					<div className='sticky top-40 mt-10 bg-black/50 backdrop-blur-md px-12 py-10 rounded-cc'>
 						<div className='flex flex-col gap-6'>
-							<h2 className='heading text-5xl'>
+							<h2 className='heading text-4xl'>
 								What is <span className='font-mblack text-red-600'>TEDx</span>
 								<span className='font-mont'>VITPune</span>?
 							</h2>
