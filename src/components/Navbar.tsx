@@ -33,7 +33,7 @@ export default function Navbar() {
 							Lookbook
 						</Link>
 						<Link
-							href='/cc'
+							href='/community-conversations'
 							className='font-msbold hover:underline underline-offset-4'
 						>
 							Community Conversations
