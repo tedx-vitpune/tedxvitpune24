@@ -11,6 +11,7 @@ export default function CC() {
         src="https://res.cloudinary.com/dq8og12k9/image/upload/v1712652124/CC/4_gmf2yt.png"
         width="10000"
         height="10000"
+        alt="img"
       />
 
       <div className="w-full flex justify-center items-center relative bottom-6 md:bottom-10">
