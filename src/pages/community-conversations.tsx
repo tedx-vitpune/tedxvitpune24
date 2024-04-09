@@ -10,8 +10,8 @@ export default function CC() {
       <img
         src="https://res.cloudinary.com/dq8og12k9/image/upload/v1712652124/CC/4_gmf2yt.png"
         width="10000"
-        height="10000"
         alt="img"
+        className='h-[80vh] object-cover w-full'
       />
 
       <div className="w-full flex justify-center items-center relative bottom-6 md:bottom-10">
@@ -31,7 +31,7 @@ export default function CC() {
           </p>
         </div>
         <div className="my-16">
-          <h2 className="text-3xl md:text-4xl">Why ?</h2>
+          <h2 className="text-3xl md:text-4xl  font-bold">Why ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             At TEDxVITPune we believe in forging strong and ever-lasting bonds,
             bringing together people from all different walks of life to natter
@@ -39,7 +39,7 @@ export default function CC() {
           </p>
         </div>
         <div className="my-16">
-          <h2 className="text-3xl md:text-4xl">Who ?</h2>
+          <h2 className="text-3xl md:text-4xl  font-bold">Who ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             Anyone at all! Get your friends, interact with the TEDx community
             and look forward to unforgettable colloquies as we smile our way
