@@ -3,7 +3,7 @@
 import Hero from "@/components/home/Hero";
 import AboutEvent from "@/components/home/AboutEvent";
 import Cards from "@/components/home/Cards";
-import TimeLine from "@/components/home/TimeLine";
+import NewTimeLine from "@/components/home/NewTimeLine";
 import Speaker from "@/components/home/Speaker";
 
 export default function Home() {
@@ -13,8 +13,7 @@ export default function Home() {
 				<Hero />
 				<AboutEvent />
 				{/* <Speaker /> */}
-				<TimeLine />
-				{/* <Cards /> */}
+				<NewTimeLine />
 			</div>
 		</main>
 	);

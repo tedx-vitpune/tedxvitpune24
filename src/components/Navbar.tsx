@@ -10,7 +10,7 @@ export default function Navbar() {
 		<nav className='flex justify-center'>
 			<div
 				className={cn(
-					"fixed top-4 z-50 bg-black/80 w-11/12 lg:w-4/5 mx-auto py-4 px-5 lg:px-10 backdrop-blur-xl flex flex-col transition",
+					"fixed top-4 z-50 bg-black/80 w-11/12 xl:w-4/5 mx-auto py-4 px-5 lg:px-10 backdrop-blur-xl flex flex-col transition",
 					isOpen && "rounded-3xl lg:rounded-full",
 					!isOpen && "rounded-full"
 				)}
