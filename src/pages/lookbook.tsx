@@ -23,7 +23,7 @@ const Lookbook = () => {
 
   return (
     <div className="flex pt-24 mx-auto w-4/5 justify-center content-center transition duration-300 flex-wrap">
-      <h1 className="text-5xl font-black m-6">Lookbook</h1>
+      <h1 className="text-5xl font-black m-6 font-mbold">Lookbook</h1>
       <div className="flex flex-row flex-wrap w-auto h-auto justify-center">
         {imageData.map((image, index) => (
           <div className="m-2 overflow-hidden" key={index}
