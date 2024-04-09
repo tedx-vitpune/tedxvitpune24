@@ -14,7 +14,7 @@ const AboutEvent = () => {
 				<h1 className='text-black text-lg lg:text-2xl font-msbold tracking-widest text-center'>
 					THE SPACE BETWEEN
 				</h1>
-				<h3 className='heading bg-gradient-to-r from-[#00c0fa] to-[#015eea] bg-clip-text text-transparent text-6xl md:text-8xl mt-6 lg:mt-16 font-mblack text-center'>
+				<h3 className='heading-m bg-[#015eea] bg-clip-text text-transparent text-6xl md:text-8xl mt-6 lg:mt-16 text-center'>
 					27 APRIL 2024
 				</h3>
 			</div>
@@ -28,12 +28,12 @@ const AboutEvent = () => {
 			</p>
 			<div className='flex flex-col md:flex-row gap-3 md:gap-6 justify-center items-center z-20'>
 				<Link href={"/tickets-vit"}>
-					<button className='px-16 py-4 bg-black text-white z-50 text-lg lg:text-xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:scale-105 transition-all font-mbold tracking-wide'>
+					<button className='px-14 py-3 bg-black text-white z-50 text-lg lg:text-xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:scale-105 transition-all font-msbold tracking-wide'>
 						Tickets (VIT)
 					</button>
 				</Link>
 				<Link href={"/tickets-non-vit"}>
-					<button className='px-16 py-4 bg-black text-white z-50 text-lg lg:text-xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:scale-105 transition-all font-mbold tracking-wide'>
+					<button className='px-14 py-3 bg-black text-white z-50 text-lg lg:text-xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:scale-105 transition-all font-msbold tracking-wide'>
 						Tickets (Others)
 					</button>
 				</Link>
