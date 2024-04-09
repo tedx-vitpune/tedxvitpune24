@@ -1,12 +1,3 @@
-
-
-:root {
-	--cards: 3;
-	--cardHeight: 75vh;
-	--cardTopPadding: 4rem;
-	--cardMargin: 9vw;
-}
-
 .main {
 	padding: 0%;
 	margin: 0%;		
@@ -14,8 +5,8 @@
 
 .card-container {
 	width: 75%;
-	/* padding-top: 5rem; */
 	margin: 0 auto;
+	padding-bottom: 7%;
 }
 
 #cards {
@@ -52,19 +43,19 @@
 }
 
 #card1 .card-body {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	box-shadow: 2px;
 }
 
 #card2 .card-body {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 #card3 .card-body {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 .card-body {
@@ -80,7 +71,7 @@
 }
 
 .ted1 {
-	margin-top: -4%;
+	margin-top: 0%;
 	font-size: 2.5em;
 }
 
@@ -97,8 +88,10 @@
 
 .ted1para {
 	margin-top: 2%;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	text-align: justify;
+	overflow: auto;
+	padding: 2.7% 3%;
 }
 
 /* .card1-in {
@@ -227,7 +220,7 @@ span {
 /* } */
 
 /* .about-heading {
-   color: black;
+   color: white;
     font-size: 1em; 
   } */
 

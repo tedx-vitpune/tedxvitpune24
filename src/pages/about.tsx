@@ -7,11 +7,11 @@ const About = () => {
 				<ul id='cards'>
 					<li className='card' id='card1'>
 						<div className='about_heading'>
-							<p className='about_heading'>About Us</p>
+							<p className='about_heading font-mbold'>About Us</p>
 						</div>
 						<div className='card-body'>
-							<h2 className='ted1'>
-								What is <span>Ted</span> ?
+							<h2 className='ted1 font-mbold'>
+								What is <span className='font-mbold'>Ted</span> ?
 							</h2>
 							<p className='ted1para'>
 								TED is a non-profit organization devoted to Ideas Worth
@@ -27,8 +27,8 @@ const About = () => {
 					</li>
 					<li className='card' id='card2'>
 						<div className='card-body'>
-							<h2 className='ted1'>
-								What is <span>Tedx</span> ?
+							<h2 className='ted1 font-mbold'>
+								What is <span className='font-mbold'>Tedx</span> ?
 							</h2>
 							<p className='ted1para'>
 								In the spirit of ideas worth spreading, TEDx is a TED-created
@@ -45,8 +45,8 @@ const About = () => {
 					</li>
 					<li className='card' id='card3'>
 						<div className='card-body'>
-							<h2 className='ted1'>
-								What is <span>Tedx</span>VITPune?
+							<h2 className='ted1 font-mbold'>
+								What is <span className='font-mbold'>Tedx</span>VITPune ?
 							</h2>
 							<p className='ted1para'>
 								TEDxVITPune was among the first TEDx events in Pune and has

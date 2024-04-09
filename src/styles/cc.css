@@ -1,86 +1,83 @@
-/* // .container {
-//     background-image: url('/cc1.png');
-/ } */
-.container:hover {
-    opacity: 1;
-    position: relative;
+.container {
+    background-image: url('/cc1.png');
 }
 
-.container::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    /* //background-color: rgba(0,0,0,0.25); */
+.container:hover {
+  opacity: 1;
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: url();
 }
 
 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    /* height: 100%; */
-    border-radius: 30px;
-    text-align: center;
-    background: rgba(6, 6, 6, 0.4);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur( 20px );
--webkit-backdrop-filter: blur( 20px );
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 2% 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  transition: 0.5s ease;
+  opacity: 0;
+  height: 24rem;
+  border-radius: 30px;
+  text-align: start;
+  /* background: rgba(6, 6, 6, 0.4); */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 2% 5%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .container:hover .middle {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .middle2 {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
-/* // .outter:hover .outterTitle .outterTitle2{
-//    display: none;
-// } */
-
-.outter{
-    text-align: center;
+.outter:hover .outterTitle .outterTitle2 {
+  display: none;
 }
 
-.outterTitle{
-    position: absolute;
-    margin-top: 18rem;
-    margin-left: 1rem;
-    /* // color: #000; */
+.outter {
+  text-align: center;
 }
 
-.outterTitle2{
-    position: absolute;
-    margin-top: 21rem;
-    margin-left: 1rem;
-    /* // color: #000; */
+.outterTitle {
+  position: absolute;
+  margin-top: 18rem;
+  margin-left: 1rem;
 }
 
+.outterTitle2 {
+  position: absolute;
+  margin-top: 21rem;
+  margin-left: 1rem;
+}
 
 .text {
-    opacity: 1 !important;
-    text-align: center;
+  opacity: 1 !important;
+  text-align: center;
 }
 
-@media only screen and (max-width: 668px){
-    .outterTitle{
-        text-align: start;
-        position: absolute;
-        margin-top: 15rem;
-        margin-left: 1rem;
+@media only screen and (max-width: 668px) {
+  .outterTitle {
+    text-align: start;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 1rem;
+  }
+
+  .middle {
+    & p {
+      font-size: 1.2rem;
     }
-    
-    .middle{
-        & p {
-            font-size: 1.2rem;
-        }
-    }
-    
+  }
 }
