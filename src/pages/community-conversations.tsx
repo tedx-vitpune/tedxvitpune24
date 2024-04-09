@@ -58,11 +58,11 @@ export default function CC() {
               }}
             >
               <div className="outter text-center">
-                <h3 className="outterTitle text-4xl">E01: Let's talk music</h3>
+                <h3 className="outterTitle text-4xl">E01: Let`s talk music</h3>
                 <h3 className="outterTitle2 text-2xl">Season 1</h3>
 
                 <p className="middle flex  text-xl h-[30rem] mt-0 text-justify">
-                  Music has always been close to everyone's heart. For some
+                  Music has always been close to everyone`s heart. For some
                   music heals, and motivates, for others, it is a source of
                   happiness even in the saddest times. Audiences embraced their
                   thoughts, gained perspective and indulged in a soulful
@@ -79,7 +79,7 @@ export default function CC() {
               }}
             >
               <div className="outter text-center">
-                <h3 className="outterTitle text-4xl">E02: Let's talk humour</h3>
+                <h3 className="outterTitle text-4xl">E02: Let`s talk humour</h3>
                 <h3 className="outterTitle2 text-2xl">Season 1</h3>
 
                 <p className="middle flex  text-xl h-[30rem] mt-0 text-justify">
@@ -109,10 +109,10 @@ export default function CC() {
                 <h3 className=" outterTitle2 text-2xl">Season 1</h3>
                 <p className="middle flex  text-xl h-[30rem] mt-0 text-justify">
                     The concept of gaining knowledge unfurls far beyond learning
-                    solely through lines of text. It's the experiences,
+                    solely through lines of text. It`s the experiences,
                     hardships and victories that teach us the real life lessons.
                     The attendees gained insights and shared with each other
-                    their thoughts on 'Learning'.
+                    their thoughts on `Learning`.
                   </p>
               
               </div>
@@ -183,9 +183,9 @@ export default function CC() {
                     Literature, was an intuitive event where we celebrated the
                     power of words and the beauty of storytelling with
                     interactive experiences, discussions, and activities.
-                    Literature expresses the author's ideas, emotions, and
+                    Literature expresses the author`s ideas, emotions, and
                     experiences to the reader through words, which can challenge
-                    our beliefs and inspire change. We uncovered these stories'
+                    our beliefs and inspire change. We uncovered these stories`
                     grip on our imagination and came together to share our
                     passion for literature.
                   </p>
@@ -200,13 +200,13 @@ export default function CC() {
               }}
             >
               <div className="outter text-center">
-                <h3 className="outterTitle  text-4xl">E04: Let’s Talk Sports</h3>
+                <h3 className="outterTitle  text-4xl">E04: Let`s Talk Sports</h3>
                 <h3 className="outterTitle2 text-2xl">Season 2</h3>
                 <p className="middle flex  text-xl h-[30rem] mt-0 text-justify">
                     Sports are exciting, thrilling, and emotional for many of
                     us. Sports are a passion, a way to unwind from the stress of
                     everyday life, or a way to stay fit. Episode 4 of Community
-                    Conversation was fun to witness. Let's talk Sports, was no
+                    Conversation was fun to witness. Let`s talk Sports, was no
                     less than a battlefield, the attendees and the team went toe
                     to toe and learned important lessons in camaraderie,
                     sportsmanship, and brotherhood.
