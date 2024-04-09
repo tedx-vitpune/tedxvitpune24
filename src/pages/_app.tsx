@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import "@/styles/about.css";
 import "@/styles/lookbook.css";
 import "@/styles/cc.css";
 import "@/styles/loader.css";
