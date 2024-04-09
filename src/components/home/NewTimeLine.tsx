@@ -106,7 +106,7 @@ export default function TimeLine() {
 				collective discovery.`,
 			videoLink:
 				"https://www.youtube.com/playlist?list=PL0687I2dEWcmn9TrEf8KrLySuacdzmpS3",
-			icon: "/2022pivotal.png",
+			icon: "https://res.cloudinary.com/dq8og12k9/image/upload/v1712680059/2022pivotal.png",
 		},
 		{
 			year: "2023",
@@ -116,7 +116,7 @@ export default function TimeLine() {
 			content:
 				"Embracing the chaos and the unknown with open hearts, for it is through these experiences that we grow...",
 			videoLink: "/",
-			icon: "/2023pivotal.png",
+			icon: "https://res.cloudinary.com/dq8og12k9/image/upload/v1712680060/2023pivotal.png",
 		},
 	];
 

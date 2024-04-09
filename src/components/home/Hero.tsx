@@ -47,7 +47,11 @@ const Hero = () => {
 	const keyframes = useMemo(
 		() =>
 			[...new Array(217)].map((_, i) =>
-				createImage(`/hero/${i.toString().padStart(4, "0")}.png`)
+				createImage(
+					`https://res.cloudinary.com/dq8og12k9/image/upload/v1712679808/hero/${i
+						.toString()
+						.padStart(4, "0")}.png`
+				)
 			),
 		[]
 	);
