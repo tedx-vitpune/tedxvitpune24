@@ -65,8 +65,7 @@ const Hero = () => {
 	});
 
 	// We know that the entire animation spans across 4 screen height.
-	const opacity = useTransform(progress, [0.25, 0.5, 1], [0, 1, 1]);
-	const scale = useTransform(progress, [0.25, 1], [0.95, 1.4]);
+	const opacity = useTransform(progress, [0, 0.5, 1], [1, 1, 0]);
 
 	return (
 		<section ref={containerRef} className='h-[270.4vh] lg:h-[400vh]'>
@@ -77,11 +76,17 @@ const Hero = () => {
 				/>
 				<div className='mx-auto flex h-[67.6vh] lg:h-screen max-w-6xl items-center justify-center px-12'>
 					<motion.h1
-						style={{ opacity, scale }}
+						style={{ opacity }}
 						className='heading text-center text-4xl font-semibold text-white md:text-7xl'
 					></motion.h1>
 				</div>
 			</div>
+			<motion.div
+				style={{ opacity }}
+				className='h-[33.4vh] lg:h-0 bg-about rounded-t-[40px] flex items-center justify-center text-black tracking-widest fixed font-msbold text-2xl w-full'
+			>
+				SCROLL
+			</motion.div>
 		</section>
 	);
 };
