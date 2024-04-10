@@ -81,7 +81,7 @@ export default function Navbar() {
 							Lookbook
 						</Link>
 						<Link
-							href='/cc'
+							href='/community-conversations'
 							className={
 								isOpen
 									? "animate-fade-in"
