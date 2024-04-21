@@ -16,9 +16,9 @@ const BTSSection = () => {
                 alt={image.alt}
                 className="block w-full h-[16rem] object-cover transition duration-300 hover:scale-110 rounded-cc lookbook-image"
               />
-              <figcaption className="absolute bottom-0 left-0 p-6 w-full font-sans text-base text-white opacity-0 bg-gradient-to-t from-black via-transparent to-transparent transition duration-300 hover:opacity-100">
+              {/*<figcaption className="absolute bottom-0 left-0 p-6 w-full font-sans text-base text-white opacity-0 bg-gradient-to-t from-black via-transparent to-transparent transition duration-300 hover:opacity-100">
                 {image.caption}
-              </figcaption>
+        </figcaption>*/}
             </figure>
           </div>
         ))}

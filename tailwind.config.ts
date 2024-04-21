@@ -12,11 +12,11 @@ const config: Config = {
 				cc: "30px",
 			},
 			backgroundImage: {
-				mainbg: "url('/bg.png')",
+				mainbg:
+					"url('https://res.cloudinary.com/dq8og12k9/image/upload/v1712680157/bg.png')",
 				hero1: "url('/hero/0000.png')",
-				about: "url('/bg-about.png')",
-				maybe: "url('/maybe.png')",
-				cliptext: "url('/clip.gif')",
+				about:
+					"url('/bg-about.webp')",
 				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

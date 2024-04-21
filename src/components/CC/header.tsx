@@ -18,7 +18,7 @@ const header = () => {
       </div>
       <div className="text-black my-8 md:my-16 max-w-6xl mx-auto pb-1 px-6 xl:px-0">
         <div className="my-16">
-          <h2 className="text-3xl md:text-4xl font-mblack">What ?</h2>
+          <h2 className="text-3xl md:text-4xl text-black font-mblack">What ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             Community Conversations” is a platform to share your ideas, get
             yourself collaborating, and become a part of meaningful
@@ -26,7 +26,7 @@ const header = () => {
           </p>
         </div>
         <div className="my-16">
-          <h2 className="text-3xl md:text-4xl font-mblack">Why ?</h2>
+          <h2 className="text-3xl md:text-4xl text-black font-mblack">Why ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             At TEDxVITPune we believe in forging strong and ever-lasting bonds,
             bringing together people from all different walks of life to natter
@@ -34,7 +34,7 @@ const header = () => {
           </p>
         </div>
         <div className="my-16">
-          <h2 className="text-3xl md:text-4xl font-mblack">Who ?</h2>
+          <h2 className="text-3xl md:text-4xl text-black font-mblack">Who ?</h2>
           <p className="text-[#484848] text-xl md:text-2xl font-semibold mt-4 tracking-wider">
             Anyone at all! Get your friends, interact with the TEDx community
             and look forward to unforgettable colloquies as we smile our way

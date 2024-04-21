@@ -9,7 +9,7 @@ export default function TimeLine() {
 	const panes = [
 		{
 			year: "2015",
-			color: "bg-[#00c0fa]",
+			color: "bg-[#1dc8fc]",
 			title: "Growth",
 			subtitle: "The Pilot | Ed 01",
 			content: `The "Growth" of TEDxVITPune began in April 2015, as we aspired to put forth the best of all events with a mission to bring together brilliant minds competent in "Spreading Ideas". With a 9 speaker line-up, the pilot event garnered attention all across Pune and was set to embark on a journey toseek inspiration from revolutionary ideas.`,
@@ -19,7 +19,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2016",
-			color: "bg-[#51b3f2]",
+			color: "bg-[#00c0fa]",
 			title: "Let's Crossover",
 			subtitle: "Traversing All Hurdles | Ed 02",
 			content: `After "Growth" came the moment to
@@ -35,7 +35,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2017",
-			color: "bg-[#4aa4f0]",
+			color: "bg-[#00b0f7]",
 			title: "Connecting the Dots",
 			subtitle: "Pause & Take a Step Back | Ed 03",
 			content: `The third edition brought together a national award-winning
@@ -50,7 +50,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2018",
-			color: "bg-[#4193eb]",
+			color: "bg-[#009bf4]",
 			title: "Walking the Wire",
 			subtitle: "Infinite Risks & No What-ifs | Ed 04",
 			content: `The fourth TEDxVITPune edition, held in October 2018, emphasized
@@ -80,7 +80,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2021",
-			color: "bg-[#3273e5]",
+			color: "bg-[#016fed]",
 			title: "Reemergence",
 			subtitle: "Resurfacing Amidst Turmoil | Ed 06",
 			content: `The 6th edition of TEDxVITPune highlighted the resilience needed
@@ -95,7 +95,7 @@ export default function TimeLine() {
 		},
 		{
 			year: "2022",
-			color: "bg-[#2b64e3]",
+			color: "bg-[#015eea]",
 			title: "Embracing the Pandemonium",
 			subtitle: "The chaos makes sense | Ed 07",
 			content: `The 7th TEDxVITPune edition celebrated embracing chaos and
@@ -106,17 +106,17 @@ export default function TimeLine() {
 				collective discovery.`,
 			videoLink:
 				"https://www.youtube.com/playlist?list=PL0687I2dEWcmn9TrEf8KrLySuacdzmpS3",
-			icon: "/2022pivotal.png",
+			icon: "https://res.cloudinary.com/dq8og12k9/image/upload/v1712680059/2022pivotal.png",
 		},
 		{
 			year: "2023",
-			color: "bg-[#015eea]",
+			color: "bg-[#0057db]",
 			title: "Fragments",
 			subtitle: "Puzzle of our design | Ed 08",
 			content:
 				"Embracing the chaos and the unknown with open hearts, for it is through these experiences that we grow...",
 			videoLink: "/",
-			icon: "/2023pivotal.png",
+			icon: "https://res.cloudinary.com/dq8og12k9/image/upload/v1712680060/2023pivotal.png",
 		},
 	];
 
