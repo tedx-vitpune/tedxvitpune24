@@ -30,14 +30,21 @@ const AboutEvent = () => {
 				<Link href={"/tickets-vit"}>
 					<button className='px-14 py-3 bg-black text-white z-50 text-lg lg:text-xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:scale-105 transition-all font-msbold tracking-wide'>
 						Tickets (VIT)
+						<p className="pt-1 text-lg lg:text-xl">900 Rs</p>
 					</button>
 				</Link>
 				<Link href={"/tickets-non-vit"}>
 					<button className='px-14 py-3 bg-black text-white z-50 text-lg lg:text-xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:scale-105 transition-all font-msbold tracking-wide'>
 						Tickets (Others)
+						<p className="pt-1 text-lg lg:text-xl">1100 Rs+GST</p>
 					</button>
 				</Link>
 			</div>
+			<Link href={"/tedx-insta-vit"}>
+			<p className="pt-4 text-[red] lg:text-xl text-center">*DM Us On <span className="text-[red] underline ">Instagram</span> To Get A Discount On Non VIT Tickets</p> 
+			</Link>
+			
+			
 		</div>
 	);
 };
