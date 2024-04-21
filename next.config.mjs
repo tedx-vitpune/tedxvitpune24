@@ -22,6 +22,11 @@ const nextConfig = {
         destination: 'https://learner.vierp.in/events',
         permanent: true,
       },
+      {
+        source: '/tedx-insta-vit',
+        destination: 'https://www.instagram.com/direct/t/118676629526454',
+        permanent: true,
+      },
     ]
   },
 };

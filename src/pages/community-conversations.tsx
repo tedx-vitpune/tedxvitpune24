@@ -8,6 +8,6 @@ export default function CC() {
       <Header />
       <CCEventCard />
       <BTSSection />
-    </div>
+     </div>
   );
 }
