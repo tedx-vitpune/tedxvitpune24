@@ -30,18 +30,18 @@ export default function Footer() {
 							<h4 className='text-lg w-full font-bold pt-4'>Organizers</h4>
 							<div className='flex items-center'>
 								<div className='flex justify-center items-center'>
-									Rishab Khandelwal
+								Tilak Dave
 								</div>
-								<Link href='tel:+919689898018' className='p-2'>
-									+91 86684 73788
+								<Link href='tel:+9186259 96825' className='p-2'>
+								 86259 96825
 								</Link>
 							</div>
 							<div className='flex items-center'>
 								<div className='flex justify-center items-center'>
-									Harshita Jain
+								Divyanshi Singh
 								</div>
-								<Link href='tel:+917666345498' className='p-2'>
-									+91 97667 83936
+								<Link href='tel:+91 88300 40410' className='p-2'>
+								 88300 40410
 								</Link>
 							</div>
 							<div className='flex items-center pt-2'>

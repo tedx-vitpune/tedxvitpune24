@@ -26,7 +26,7 @@ const AboutEvent = () => {
 				is where we grow and blossom. It symbolizes pauses between actions,
 				emotions between words, and thoughts between thoughts.
 			</p>
-			<div className='flex flex-col md:flex-row gap-3 md:gap-6 justify-center items-center z-20'>
+			{/* <div className='flex flex-col md:flex-row gap-3 md:gap-6 justify-center items-center z-20'>
 				<Link href={"/tickets-vit"}>
 					<button className='px-14 py-3 bg-black text-white z-50 text-lg lg:text-xl rounded-full shadow-2xl shadow-black/50 hover:shadow-black/70 hover:scale-105 transition-all font-msbold tracking-wide'>
 						Tickets (VIT)
@@ -43,7 +43,7 @@ const AboutEvent = () => {
 			<Link href={"/tedx-insta-vit"}>
 			<p className="pt-4 text-[red] lg:text-xl text-center">*DM Us On <span className="text-[red] underline ">Instagram</span> To Get A Discount On Non VIT Tickets</p> 
 			</Link>
-			
+			 */}
 			
 		</div>
 	);
