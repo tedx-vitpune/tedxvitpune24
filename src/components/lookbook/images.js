@@ -1,4 +1,76 @@
 const imageData = [
+   //2024
+   {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208483/TED-X-54_m8qo41.jpg",
+    alt: "2024",
+    caption: "Portrait by Jeffery Erhunse",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208551/TED-X-214_eykd9h.jpg",
+    alt: "2024",
+    caption: "Portrait by Mari Lezhava",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208627/TED-X-223_wmwqvr.jpg",
+    alt: "2024",
+    caption: "Portrait by Ethan Haddox",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208693/TED-X-77_a4mqb7.jpg",
+    alt: "2024",
+    caption: "Portrait by Amir Geshani",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208761/TED-X-67_rpuxry.jpg",
+    alt: "2024",
+    caption: "Portrait by Tyler Nix",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208858/TED-X-262_hum5oo.jpg",
+    alt: "2024",
+    caption: "Portrait by Jasmin Chew",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732209126/TED-X-121_gmxxj7.jpg",
+    alt: "2024",
+    caption: "Portrait by Dima DallAcqua",
+  },
+   //2023
+   {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732207711/Copy_of_IMG_0082_hqdykt.jpg",
+    alt: "2023",
+    caption: "Portrait by Jeffery Erhunse",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732207833/Copy_of__MG_0861_sexapw.jpg",
+    alt: "2023",
+    caption: "Portrait by Mari Lezhava",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732207946/Copy_of__DSC0493_h74rjv.jpg",
+    alt: "2023",
+    caption: "Portrait by Ethan Haddox",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208016/Copy_of__DSC0478_czgedn.jpg",
+    alt: "2023",
+    caption: "Portrait by Amir Geshani",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208099/Copy_of__MG_0902_xvu1tm.jpg",
+    alt: "2023",
+    caption: "Portrait by Tyler Nix",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208195/Copy_of_IMG_0189_qc0t2z.jpg",
+    alt: "2023",
+    caption: "Portrait by Jasmin Chew",
+  },
+  {
+    url: "https://res.cloudinary.com/db9hcvstk/image/upload/v1732208290/Copy_of_IMG_0179_nlo2hi.jpg",
+    alt: "2023",
+    caption: "Portrait by Dima DallAcqua",
+  },
   //2022
   {
     url: "https://res.cloudinary.com/dq8og12k9/image/upload/v1712651906/lookbook/2022/3_tdjhgb.png",
