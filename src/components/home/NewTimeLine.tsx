@@ -123,7 +123,7 @@ export default function TimeLine() {
 			year: "2024",
 			color: "bg-[#0057db]",
 			title: "The Space Between",
-			subtitle: "Puzzle of our design | Ed 09",
+			subtitle: "The Space Between | Ed 09",
 			content:
 				"TEDxVITPune’s 9th edition, “The Space Between” explores the chaotic journey through uncertainty and discovery. It invites us to embrace the gap between where we are and where we want to be, recognising it as a space rich with potential and insight. The event featured speakers like Karan Darda, who explored the design of Pune's metro stations, and Nachiket Utpat, who shed light on the realities of pet adoption, both delving into the concept of traversing “The Space Between”.",
 			videoLink: "/",

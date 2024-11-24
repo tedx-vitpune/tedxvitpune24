@@ -38,11 +38,11 @@ export default function Navbar() {
 						>
 							Community Conversations
 						</Link>
-						<Link href='/#about'>
+						{/* <Link href='/#about'>
 							<button className='px-4 py-2 bg-white rounded-full text-black font-msbold hover:scale-105 transition-all duration-300'>
 								Grab Your Tickets
 							</button>
-						</Link>
+						</Link> */}
 						{/* <Link
               href="/past-editions"
               className="font-black hover:underline underline-offset-4"
