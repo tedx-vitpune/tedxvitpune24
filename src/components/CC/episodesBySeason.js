@@ -1,5 +1,4 @@
 const episodesBySeason = {
-    
   "Season 3": [
     {
       title: "E01: Let’s talk Travel",

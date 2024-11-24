@@ -32,29 +32,39 @@ const useScrollImageSequenceFramerCanvas = ({
 	const progress = useSpring(scrollYProgress, springConfig);
 
 	const resizeCanvas = useCallback(() => {
-		const canvas = canvasRef.current!;
-		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
+		const canvas = canvasRef.current;
+		if (canvas) {
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+		}
 	}, []);
 
 	const renderImage = useCallback(
 		(progress: number) => {
 			const constraint = (n: number, min = 0, max = keyframes.length - 1) =>
 				Math.min(Math.max(n, min), max);
-			onDraw(
-				keyframes[constraint(Math.round(keyframes.length * progress))],
-				canvasRef.current!.getContext("2d")!
-			);
+
+			if (canvasRef.current) {
+				const context = canvasRef.current.getContext("2d");
+				if (context) {
+					onDraw(
+						keyframes[constraint(Math.round(keyframes.length * progress))],
+						context
+					);
+				}
+			}
 		},
-		[keyframes]
+		[keyframes, onDraw]
 	);
 
 	useEffect(() => {
 		resizeCanvas();
+
 		const resizeCanvasAndRerender = () => {
 			resizeCanvas();
 			renderImage(progress.get());
 		};
+
 		window.addEventListener("resize", resizeCanvasAndRerender);
 		return () => {
 			window.removeEventListener("resize", resizeCanvasAndRerender);
@@ -62,10 +72,17 @@ const useScrollImageSequenceFramerCanvas = ({
 	}, [progress, renderImage, resizeCanvas]);
 
 	useEffect(() => {
-		keyframes[0].onload = () => {
-			onDraw(keyframes[0], canvasRef.current!.getContext("2d")!);
-		};
-	}, [keyframes]);
+		if (keyframes[0]) {
+			keyframes[0].onload = () => {
+				if (canvasRef.current) {
+					const context = canvasRef.current.getContext("2d");
+					if (context) {
+						onDraw(keyframes[0], context);
+					}
+				}
+			};
+		}
+	}, [keyframes, onDraw]);
 
 	useMotionValueEvent(progress, "change", renderImage);
 
