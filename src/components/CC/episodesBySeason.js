@@ -1,5 +1,13 @@
 const episodesBySeason = {
     
+  "Season 3": [
+    {
+      title: "E01: Let’s talk Travel",
+      imageUrl:
+        "https://res.cloudinary.com/dq8og12k9/image/upload/v1732186363/CC/cc_2024_cover.jpg",
+      description:
+"Think about a cozy room, filled with people talking about serene experiences of distant lands; from the soothing countryside to the bustling city markets. This episode of community conversations was all about the magic of travelling. Through immersive and interactive games, the room buzzed with journey recollections; leaving the attendees with a sense of warmth within them."    },
+  ],
 
   "Season 2": [
     {
