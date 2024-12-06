@@ -29,7 +29,7 @@ export default function Newsletter() {
       alert('Failed to store data in Firestore');
     }
 	  };
-	  const handleEmailSubmission = (e) => {
+	  const handleEmailSubmission = (e: { preventDefault: () => void; }) => {
 		e.preventDefault();
 		if(email === "") return;
 		if(!email.includes("@")) return;
