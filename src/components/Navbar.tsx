@@ -7,7 +7,7 @@ export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<nav className='flex justify-center'>
+		<nav className='flex justify-center px-10'>
 			<div
 				className={cn(
 					"fixed top-4 z-50 bg-black/80 w-11/12 xl:w-4/5 mx-auto py-4 px-5 lg:px-10 backdrop-blur-xl flex flex-col transition",
@@ -38,17 +38,6 @@ export default function Navbar() {
 						>
 							Community Conversations
 						</Link>
-						{/* <Link href='/#about'>
-							<button className='px-4 py-2 bg-white rounded-full text-black font-msbold hover:scale-105 transition-all duration-300'>
-								Grab Your Tickets
-							</button>
-						</Link> */}
-						{/* <Link
-              href="/past-editions"
-              className="font-black hover:underline underline-offset-4"
-            >
-              Past Editions
-            </Link> */}
 					</div>
 					<button
 						className='lg:hidden flex justify-center items-center'
@@ -61,7 +50,6 @@ export default function Navbar() {
 					<div className='mt-6 mb-2 lg:hidden px-3 flex flex-col gap-6 animate-slide-down'>
 						<Link
 							href='/about'
-							// className="font-black text-xl hover:underline underline-offset-4"
 							className={
 								isOpen
 									? "animate-fade-in"
@@ -95,12 +83,6 @@ export default function Navbar() {
 								Grab Your Tickets
 							</button>
 						</Link>
-						{/* <Link
-              href="/past-editions"
-              className={isOpen ? "animate-fade-in" : "font-black text-xl hover:underline underline-offset-4"} 
-            >
-              Past Editions
-            </Link> */}
 					</div>
 				)}
 			</div>

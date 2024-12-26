@@ -9,12 +9,9 @@ import Speaker from "@/components/home/Speaker";
 export default function Home() {
 	return (
 		<main>
-			<div className='overflow-clip'>
-				<Hero />
-				<AboutEvent />
-				{/* <Speaker /> */}
-				<NewTimeLine />
-			</div>
+			<Hero />
+			<AboutEvent />
+			<NewTimeLine />
 		</main>
 	);
 }
