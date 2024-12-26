@@ -57,7 +57,7 @@ const NewsletterModal = () => {
 				<div className='fixed inset-0 z-50 flex items-center justify-center bg-black/50'>
 					<div className='relative bg-white text-black rounded-lg shadow-lg overflow-hidden w-[90%] max-w-lg'>
 						{/* Background Image */}
-						<div className='relative h-48'>
+						<div className='relative h-36 md:h-48'>
 							<Image
 								src='https://res.cloudinary.com/dq8og12k9/image/upload/v1735207861/Zoomers_1.png' // Replace with your image path
 								alt='Newsletter Background'
@@ -77,20 +77,20 @@ const NewsletterModal = () => {
 							</p>
 
 							{!(message.length > 0) && (
-								<form className='flex flex-col lg:flex-row mt-8'>
+								<form className='flex flex-col gap-2 lg:flex-row mt-8'>
 									<input
 										type='text'
 										name='Email'
 										onChange={(e) => setEmail(e.target.value)}
 										value={email}
-										className='w-full lg:w-4/5 px-4 py-2 rounded-lg bg-gray-300 text-black md:mr-4 outline-none focus:border-1 focus:border-[#dd1313]'
+										className='w-full lg:w-4/5 px-4 py-2 rounded-lg bg-gray-300 text-black outline-none focus:border-1 focus:border-[#dd1313]'
 										placeholder='Enter your email'
 									/>
 									<button
-										className='w-full lg:w-1/5 px-4 py-2 rounded-lg bg-[#dd1313]'
+										className='w-full lg:w-1/5 px-4 py-2 flex justify-center items-center gap-4 rounded-lg bg-[#dd1313]'
 										onClick={handleEmailSubmission}
 									>
-										<FiSend className='text-white w-6 h-6 mx-auto' />
+										<FiSend className='text-white w-6 h-6' /><p className="text-xl lg:hidden">Subscribe</p> 
 									</button>
 								</form>
 							)}
