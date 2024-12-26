@@ -83,11 +83,11 @@ const NewsletterModal = () => {
 										name='Email'
 										onChange={(e) => setEmail(e.target.value)}
 										value={email}
-										className='w-full lg:w-4/5 px-4 py-2 rounded-lg bg-gray-300 text-black outline-none focus:border-1 focus:border-[#dd1313]'
+										className='w-full px-4 py-2 rounded-lg bg-gray-300 text-black outline-none focus:border-1 focus:border-[#dd1313]'
 										placeholder='Enter your email'
 									/>
 									<button
-										className='w-full lg:w-1/5 px-4 py-2 flex justify-center items-center gap-4 rounded-lg bg-[#dd1313]'
+										className='px-4 py-2 flex justify-center items-center gap-4 rounded-lg bg-[#dd1313]'
 										onClick={handleEmailSubmission}
 									>
 										<FiSend className='text-white w-6 h-6' /><p className="text-xl lg:hidden">Subscribe</p> 
