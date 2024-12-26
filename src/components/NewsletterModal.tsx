@@ -69,11 +69,11 @@ const NewsletterModal = () => {
 						{/* Content */}
 						<div className='p-6'>
 							<h2 className='text-2xl font-bold text-center text-black'>
-								Next Newsletter drops Dec 29th
+								Newsletter drops Dec 29th
 							</h2>
 							<p className='mt-4 text-center text-gray-800'>
-								Our focus on this newsletter is on &apos;here and now&apos;, and
-								there&apos;s no better name for it than Gen Z.
+								fresh perspectives, bold ideas, and the GenZ way of seeing
+								things.
 							</p>
 
 							{!(message.length > 0) && (
@@ -84,13 +84,14 @@ const NewsletterModal = () => {
 										onChange={(e) => setEmail(e.target.value)}
 										value={email}
 										className='w-full px-4 py-2 rounded-lg bg-gray-300 text-black outline-none focus:border-1 focus:border-[#dd1313]'
-										placeholder='Enter your email'
+										placeholder='Enter your email to subscribe'
 									/>
 									<button
 										className='px-4 py-2 flex justify-center items-center gap-4 rounded-lg bg-[#dd1313]'
 										onClick={handleEmailSubmission}
 									>
-										<FiSend className='text-white w-6 h-6' /><p className="text-xl lg:hidden">Subscribe</p> 
+										<FiSend className='text-white w-6 h-6' />
+										<p className='text-xl lg:hidden'>Subscribe</p>
 									</button>
 								</form>
 							)}
