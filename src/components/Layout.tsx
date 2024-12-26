@@ -44,7 +44,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 				<title>TEDxVITPune</title>
 				<meta
 					name='description'
-					content="TEDxVITPune is a 8 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
+					content="TEDxVITPune is a 10 year old organization working towards 'Ideas Change Everything' via powerful talks and prodigious experience."
 				/>
 				<meta
 					name='keywords'
@@ -58,7 +58,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 				<meta property='og:title' content='TEDxVITPune' />
 				<meta
 					property='og:description'
-					content="TEDxVITPune is a 8 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
+					content="TEDxVITPune is a 10 year old organization working towards 'Ideas Change Everything' via powerful talks and prodigious experience."
 				/>
 				<meta
 					property='og:image'
@@ -71,7 +71,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 				<meta property='twitter:title' content='TEDxVITPune' />
 				<meta
 					property='twitter:description'
-					content="TEDxVITPune is a 8 year old organization working towards 'Ideas worth Spreading' via powerful talks and prodigious experience. Register Now!"
+					content="TEDxVITPune is a 10 year old organization working towards 'Ideas Change Everything' via powerful talks and prodigious experience."
 				/>
 				<meta
 					property='twitter:image'
