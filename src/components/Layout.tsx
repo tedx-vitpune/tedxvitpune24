@@ -86,7 +86,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 					<Navbar />
 					<main className='bg-mainbg'>{children}</main>
 					<Footer />
-					<NewsletterModal />
+					{/* <NewsletterModal /> */}
 				</div>
 			)}
 		</>
